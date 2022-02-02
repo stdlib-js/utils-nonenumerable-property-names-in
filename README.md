@@ -20,7 +20,7 @@ limitations under the License.
 
 # nonEnumerablePropertyNamesIn
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Return an array of an object's own and inherited non-enumerable property names.
 
@@ -133,10 +133,10 @@ console.log( keys );
 
 ## See Also
 
--   [`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]: return an array of an object's own and inherited enumerable property names.
--   [`@stdlib/utils/inherited-nonenumerable-property-names`][@stdlib/utils/inherited-nonenumerable-property-names]: return an array of an object's inherited non-enumerable property names.
--   [`@stdlib/utils/nonenumerable-property-names`][@stdlib/utils/nonenumerable-property-names]: return an array of an object's own non-enumerable property names.
--   [`@stdlib/utils/property-names-in`][@stdlib/utils/property-names-in]: return an array of an object's own and inherited enumerable and non-enumerable property names.
+-   <span class="package-name">[`@stdlib/utils/keys-in`][@stdlib/utils/keys-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils/inherited-nonenumerable-property-names`][@stdlib/utils/inherited-nonenumerable-property-names]</span><span class="delimiter">: </span><span class="description">return an array of an object's inherited non-enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils/nonenumerable-property-names`][@stdlib/utils/nonenumerable-property-names]</span><span class="delimiter">: </span><span class="description">return an array of an object's own non-enumerable property names.</span>
+-   <span class="package-name">[`@stdlib/utils/property-names-in`][@stdlib/utils/property-names-in]</span><span class="delimiter">: </span><span class="description">return an array of an object's own and inherited enumerable and non-enumerable property names.</span>
 
 </section>
 
@@ -161,11 +161,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
@@ -187,8 +182,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-nonenumerable-property-names-in/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-nonenumerable-property-names-in?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-nonenumerable-property-names-in.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-nonenumerable-property-names-in/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
@@ -196,8 +195,6 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-nonenumerable-property-names-in/main/LICENSE
 
 [ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
 
