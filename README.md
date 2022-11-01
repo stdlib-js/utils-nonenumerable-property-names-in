@@ -169,11 +169,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
@@ -189,8 +184,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/utils-nonenumerable-property-names-in.svg
 [npm-url]: https://npmjs.org/package/@stdlib/utils-nonenumerable-property-names-in
 
-[test-image]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/actions/workflows/test.yml/badge.svg?branch=v0.0.8
-[test-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/actions/workflows/test.yml?query=branch:v0.0.8
+[test-image]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-nonenumerable-property-names-in/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-nonenumerable-property-names-in?branch=main
@@ -216,8 +211,6 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/tree/umd
 [esm-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/tree/esm
 [branches-url]: https://github.com/stdlib-js/utils-nonenumerable-property-names-in/blob/main/branches.md
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-nonenumerable-property-names-in/main/LICENSE
 
 [ecma-262-for-in]: http://www.ecma-international.org/ecma-262/5.1/#sec-12.6.4
 
