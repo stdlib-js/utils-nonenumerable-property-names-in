@@ -1,5 +1,34 @@
-"use strict";var v=function(t,r){return function(){return r||t((r={exports:{}}).exports,r),r.exports}};var s=v(function(b,u){
-var p=require('@stdlib/utils-property-names/dist'),m=require('@stdlib/utils-get-prototype-of/dist'),c=require('@stdlib/assert-is-nonenumerable-property/dist'),f=require('@stdlib/assert-has-own-property/dist'),q=require('@stdlib/object-ctor/dist');function h(t){var r,n,e,o,a,i;if(t==null)return[];e=q(t),r=[],n={};do{for(o=p(e),i=0;i<o.length;i++)a=o[i],f(n,a)===!1&&c(e,a)&&r.push(a),n[a]=!0;e=m(e)}while(e);return r}u.exports=h
-});var l=s();module.exports=l;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Return an array of an object's own and inherited non-enumerable property names.
+*
+* @module @stdlib/utils-nonenumerable-property-names-in
+*
+* @example
+* var defineProperty = require( '@stdlib/utils-define-property' );
+* var nonEnumerablePropertyNamesIn = require( '@stdlib/utils-nonenumerable-property-names-in' );
+*
+* var obj = {};
+*
+* defineProperty( obj, 'beep', {
+*     'configurable': false,
+*     'enumerable': false,
+*     'writable': false,
+*     'value': 'boop'
+* });
+*
+* var keys = nonEnumerablePropertyNamesIn( obj );
+* // e.g., returns [ 'beep', ... ]
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
